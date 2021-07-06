@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #515151;
+  font-family: 'Mulish', sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+.title {
+  font-size: 45px;
+  font-weight: 800;
+  color: #656565;
+}
+
+.details {
+  font-size: 20px;
+  color: black;
+  padding: 30px 0;
+}
+
+.button {
+  text-decoration: none;
+  padding: 20px 40px;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 40px;
+  background-color: crimson;
+  font-size: 20px;
+  margin: 40px 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.button:hover {
+  -webkit-box-shadow: 0px 0px 20px 0px #ff0000a6;
+          box-shadow: 0px 0px 20px 0px #ff0000a6;
+}
+
+header {
+  height: 100vh;
+  position: relative;
+  background: #fff;
+  padding: 0 7%;
+}
+
+header p {
+  font-size: 25px;
+  margin: 40px 0 70px 0;
+}
+
+.header_left {
+  top: 20%;
+  position: absolute;
+  width: 40%;
+}
+
+header h1 {
+  font-size: 63px;
+  font-weight: 800;
+}
+
+header h1 span {
+  color: crimson;
+}
+
+header img {
+  position: absolute;
+  right: 0;
+  padding-right: 6%;
+  height: 100%;
+}
+
+.about {
+  background-image: url("images/shapes/7.png");
+  background-size: cover;
+  height: 600px;
+  background-repeat: no-repeat;
+  padding: 0 14%;
+  position: relative;
+}
+
+.about img {
+  position: absolute;
+  bottom: 0;
+  height: 85%;
+}
+
+.about .about_right {
+  width: 44%;
+  float: right;
+  height: 100%;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.recipe {
+  text-align: center;
+  width: 100%;
+}
+
+.recipe h1 {
+  padding-top: 50px;
+  font-weight: 800;
+}
+
+.recipe p {
+  margin: 0 25%;
+}
+
+.recipe .cards {
+  display: flex;
+  padding: 0 5%;
+}
+
+.recipe .cards .card {
+  width: 33%;
+  padding: 20px;
+  margin: 30px;
+  -webkit-box-shadow: 0px 0px 20px 0px #dddddd;
+          box-shadow: 0px 0px 20px 0px #dddddd;
+  border-radius: 30px;
+  text-align: left;
+  color: #141414;
+}
+
+.recipe .cards .card img {
+  width: 100%;
+}
+
+.recipe .cards .card p {
+  margin: 15px 0;
+  font-size: 20px;
+  color: #494949;
+}
+
+.stats {
+  margin: 7%;
+  display: flex;
+  -webkit-box-shadow: 0 0 20px #dddddd;
+          box-shadow: 0 0 20px #dddddd;
+  border-radius: 30px;
+  padding: 60px 20px;
+  color: black;
+}
+
+.stats .stats_inner {
+  text-align: center;
+  width: 33%;
+}
+
+.stats .stats_inner h1 {
+  font-size: 52px;
+  font-weight: 900;
+}
+
+.stats .stats_inner p {
+  font-size: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 3% 0 7% 0;
+  background: #000a13;
+}
+
+footer h1 {
+  font-size: 33px;
+  margin: 10px 0;
+}
+
+footer h1 span {
+  color: crimson;
+}
+
+footer p {
+  color: white;
+}
